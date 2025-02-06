@@ -1,15 +1,21 @@
 .login-section{
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .login-form{
     padding: 30px;
     border-radius: 30px;
+    width: 50vw;
 }
 
 .login-form h2, p{
     text-align: center;
+    
 }
 
 .btn{
@@ -23,7 +29,54 @@
     flex-direction: column; 
 }
 
+.inputs-login input{
+    border-radius: 25px;
+    height: 25px;
+
+}
+.inputs-login label{
+    margin: 5px;
+    font-weight: 500;
+
+}
+
+#email::placeholder{
+    padding-left: 15px;
+}
+#password::placeholder{
+    padding-left: 15px;
+}
+
+.inputs-login a{
+    margin: 10px;
+    font-weight: lighter;
+    color: black;
+}
+
+.inputs-login button{
+    width: 10%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
 .sign-up{
     flex-direction: column;
+    background-color: #212121;
+    height: 100%;
+    color: #ffffff ;
+    border-radius: 80px 0 80px 0 ;
+    width: 52.6vh;
+    margin-right: -94px;
+}
+
+.btn{
+    width: 8%;
+    height: auto;
+    background-color: #55ab6f;
+    border: none;
+    ::hover{
+        cursor: pointer;
+    }
 }
 

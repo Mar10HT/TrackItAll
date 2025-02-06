@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
     background-color: #55ab6f ;
 }
@@ -12,5 +13,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.capriola-font{
+    font-family: "Capriola", serif;
+}
+
+.chivo-mono-font{
+    font-family: "Chivo Mono", serif;   
 }
 
