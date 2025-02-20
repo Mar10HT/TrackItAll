@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { LoginComponent } from './login/login.component';
+
+//Components
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+
+//Material Components
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [LoginComponent],
+  imports: [DashboardComponent, RouterOutlet],
 })
 export class AppComponent {
   title = 'TrackItAll';
