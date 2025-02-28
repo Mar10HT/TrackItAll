@@ -1,0 +1,9 @@
+.toolbar{
+    background-color: rgba(25, 25, 200, 0.575);
+    color: white;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+
