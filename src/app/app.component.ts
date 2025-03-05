@@ -10,7 +10,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [DashboardComponent, RouterOutlet],
+  imports: [RouterOutlet],
 })
 export class AppComponent {
   title = 'TrackItAll';
